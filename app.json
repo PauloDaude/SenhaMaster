@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "senha_master",
-    "slug": "senha_master",
+    "slug": "senhamaster",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.paulodaude.senhamaster"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "63176bf0-1394-4d05-9f18-6fc749ee1baa"
+      }
+    },
+    "owner": "paulodaude"
   }
 }
